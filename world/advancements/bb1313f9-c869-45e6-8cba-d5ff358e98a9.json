@@ -4777,6 +4777,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2021-03-11 22:36:23 -0800",
+      "minecraft:spider": "2021-03-11 22:27:03 -0800",
       "minecraft:creeper": "2021-03-10 15:33:46 -0800",
       "minecraft:zombie": "2021-03-10 15:09:08 -0800"
     },
@@ -13720,6 +13722,7 @@
     "criteria": {
       "minecraft:forest": "2021-03-10 14:49:04 -0800",
       "minecraft:birch_forest": "2021-03-10 14:36:27 -0800",
+      "minecraft:dark_forest": "2021-03-11 22:43:17 -0800",
       "minecraft:river": "2021-03-10 14:36:24 -0800",
       "minecraft:swamp": "2021-03-10 17:21:32 -0800",
       "minecraft:plains": "2021-03-10 14:26:23 -0800"
@@ -14442,6 +14445,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-03-11 23:21:14 -0800",
+      "cooked_chicken": "2021-03-11 23:18:47 -0800",
       "cooked_mutton": "2021-03-10 16:10:00 -0800",
       "upgrade_aquatic:cooked_pike": "2021-03-10 16:13:20 -0800",
       "cooked_salmon": "2021-03-10 14:44:51 -0800"
