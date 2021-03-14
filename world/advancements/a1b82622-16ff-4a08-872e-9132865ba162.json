@@ -4478,6 +4478,12 @@
     },
     "done": true
   },
+  "repurposed_structures:village/village_mountains": {
+    "criteria": {
+      "in_village_mountains": "2021-03-13 23:39:54 -0800"
+    },
+    "done": true
+  },
   "inspirations:recipes/cauldron/cauldron/bed/light_gray": {
     "criteria": {
       "has_item": "2021-03-09 17:41:32 -0800"
