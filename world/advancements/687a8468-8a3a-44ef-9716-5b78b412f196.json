@@ -6785,6 +6785,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2021-03-14 19:08:05 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:34 -0800"
@@ -13499,6 +13505,12 @@
     },
     "done": true
   },
+  "jellyfishing:jellyfishing/seanut": {
+    "criteria": {
+      "net": "2021-03-14 19:08:22 -0700"
+    },
+    "done": true
+  },
   "rftoolsdim:recipes/rftoolsdim/part_memory_0": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:33 -0800"
@@ -13742,6 +13754,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/nugget_aluminum_recycle_faraday_legs": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:34 -0800"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/im_ready": {
+    "criteria": {
+      "net": "2021-03-14 20:19:29 -0700"
     },
     "done": true
   },

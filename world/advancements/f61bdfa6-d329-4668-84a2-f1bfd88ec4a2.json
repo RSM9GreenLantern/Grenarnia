@@ -3654,6 +3654,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-03-14 14:48:28 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_green_from_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:27 -0800"
@@ -8593,6 +8599,12 @@
   "create:recipes/create.base/crafting/kinetics/yellow_seat": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:27 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candelabra_silver": {
+    "criteria": {
+      "has_item": "2021-03-14 20:12:57 -0700"
     },
     "done": true
   },

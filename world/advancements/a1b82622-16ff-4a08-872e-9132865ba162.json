@@ -1844,6 +1844,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/connect_wire": {
+    "criteria": {
+      "code_trigger": "2021-03-14 05:21:10 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
@@ -4931,6 +4937,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2021-03-11 23:20:12 -0800",
+      "minecraft:skeleton": "2021-03-14 04:57:02 -0700",
       "minecraft:magma_cube": "2021-03-12 00:33:58 -0800",
       "minecraft:spider": "2021-03-10 20:22:42 -0800",
       "minecraft:enderman": "2021-03-10 19:47:05 -0800",
@@ -8650,6 +8657,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_magenta_to_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:09 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_crusher": {
+    "criteria": {
+      "crusher": "2021-03-14 05:18:19 -0700"
     },
     "done": true
   },
@@ -14159,6 +14172,7 @@
       "minecraft:birch_forest_hills": "2021-03-10 00:06:05 -0800",
       "minecraft:wooded_mountains": "2021-03-10 22:42:10 -0800",
       "minecraft:wooded_hills": "2021-03-10 23:56:24 -0800",
+      "minecraft:stone_shore": "2021-03-14 04:20:05 -0700",
       "minecraft:swamp": "2021-03-11 00:16:41 -0800",
       "minecraft:savanna": "2021-03-12 03:09:00 -0800",
       "minecraft:plains": "2021-03-09 02:20:14 -0800"
