@@ -1247,6 +1247,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2021-03-12 16:19:56 -0800"
+    },
+    "done": true
+  },
   "inspirations:recipes/redstone/utility/carpeted_trapdoor/pink": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:32 -0800"
@@ -4792,6 +4798,12 @@
       "has_the_recipe": "2021-03-08 18:26:31 -0800"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2021-03-12 15:35:24 -0800"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
@@ -9905,6 +9917,12 @@
     },
     "done": true
   },
+  "mana-and-artifice:root": {
+    "criteria": {
+      "get_vinteum": "2021-03-12 16:22:18 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/honey_bottle": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:32 -0800"
@@ -13697,6 +13715,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2021-03-12 15:35:24 -0800"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/limestone_cobblestone_slab_from_limestone_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:30 -0800"
@@ -15818,6 +15842,12 @@
   "immersivepetroleum:recipes/immersivepetroleum/asphalt2": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:34 -0800"
+    },
+    "done": true
+  },
+  "mana-and-artifice:mine_vinteum": {
+    "criteria": {
+      "get_vinteum": "2021-03-12 16:22:18 -0800"
     },
     "done": true
   },

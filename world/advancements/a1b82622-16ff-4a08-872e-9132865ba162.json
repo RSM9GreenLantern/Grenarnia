@@ -4334,6 +4334,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/make_steel": {
+    "criteria": {
+      "steel": "2021-03-13 01:08:27 -0800"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
@@ -15398,6 +15404,12 @@
   "create:recipes/create.base/crafting/kinetics/spout": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_blastfurnace": {
+    "criteria": {
+      "blastfurnace": "2021-03-13 00:35:25 -0800"
     },
     "done": true
   },

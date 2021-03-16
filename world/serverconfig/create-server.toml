@@ -193,6 +193,7 @@
 				crushing_wheel = 8.0
 				mechanical_arm = 8.0
 				rope_pulley = 4.0
+				rolling_mill = 8.0
 				mechanical_crafter = 2.0
 				mechanical_drill = 4.0
 				flywheel = 0.0
@@ -216,6 +217,7 @@
 				mechanical_press = 8.0
 				encased_fan = 2.0
 				gearshift = 0.0
+				alternator = 8.0
 				cuckoo_clock = 1.0
 				brass_encased_shaft = 0.0
 				speedometer = 0.0
