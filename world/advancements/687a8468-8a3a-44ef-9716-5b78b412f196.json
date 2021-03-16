@@ -437,6 +437,12 @@
     },
     "done": true
   },
+  "mana-and-artifice:vinteum_bar": {
+    "criteria": {
+      "get_vinteum_bar": "2021-03-15 19:39:04 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/weathered_limestone_bricks_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:32 -0800"
@@ -4839,6 +4845,7 @@
     "criteria": {
       "minecraft:blaze": "2021-03-15 16:15:24 -0700",
       "minecraft:skeleton": "2021-03-12 15:35:24 -0800",
+      "minecraft:vex": "2021-03-15 19:29:50 -0700",
       "minecraft:zombie": "2021-03-14 21:26:48 -0700"
     },
     "done": false
@@ -11827,6 +11834,12 @@
     },
     "done": true
   },
+  "dungeons_plus:adventure/find_tower": {
+    "criteria": {
+      "structure": "2021-03-15 19:28:59 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/toolupgrade_railgun_capacitors": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:27 -0800"
@@ -12304,6 +12317,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:32 -0800"
+    },
+    "done": true
+  },
+  "mana-and-artifice:codex_trade": {
+    "criteria": {
+      "get_guide_book": "2021-03-15 19:45:06 -0700"
     },
     "done": true
   },
@@ -13914,9 +13933,12 @@
       "minecraft:cold_ocean": "2021-03-11 15:58:37 -0800",
       "minecraft:forest": "2021-03-08 19:37:48 -0800",
       "minecraft:mountains": "2021-03-14 23:33:50 -0700",
+      "minecraft:desert": "2021-03-15 19:32:20 -0700",
       "minecraft:birch_forest": "2021-03-10 18:28:25 -0800",
+      "minecraft:deep_lukewarm_ocean": "2021-03-15 19:31:21 -0700",
       "minecraft:beach": "2021-03-11 15:58:34 -0800",
       "minecraft:river": "2021-03-10 19:41:37 -0800",
+      "minecraft:lukewarm_ocean": "2021-03-15 19:31:16 -0700",
       "minecraft:birch_forest_hills": "2021-03-11 15:55:17 -0800",
       "minecraft:wooded_hills": "2021-03-14 20:27:18 -0700",
       "minecraft:swamp": "2021-03-14 20:24:28 -0700",

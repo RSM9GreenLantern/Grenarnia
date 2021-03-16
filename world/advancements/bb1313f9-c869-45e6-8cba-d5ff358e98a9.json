@@ -4798,6 +4798,7 @@
       "minecraft:skeleton": "2021-03-11 22:36:23 -0800",
       "minecraft:spider": "2021-03-11 22:27:03 -0800",
       "minecraft:creeper": "2021-03-10 15:33:46 -0800",
+      "minecraft:enderman": "2021-03-15 21:29:26 -0700",
       "minecraft:zombie": "2021-03-10 15:09:08 -0800"
     },
     "done": false
@@ -14484,6 +14485,7 @@
       "cooked_porkchop": "2021-03-11 23:21:14 -0800",
       "cooked_chicken": "2021-03-11 23:18:47 -0800",
       "cooked_mutton": "2021-03-10 16:10:00 -0800",
+      "apple": "2021-03-15 21:31:22 -0700",
       "upgrade_aquatic:cooked_pike": "2021-03-10 16:13:20 -0800",
       "cooked_salmon": "2021-03-10 14:44:51 -0800"
     },

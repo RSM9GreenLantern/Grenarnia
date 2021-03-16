@@ -10,6 +10,7 @@
   "alexsmobs:gazelle": 9,
   "quark:foxhound": 5,
   "alexsmobs:rattlesnake": 3,
+  "alexsmobs:snow_leopard": 15,
   "alexsmobs:gorilla": 15,
   "alexsmobs:shoebill": 9,
   "alexsmobs:capuchin_monkey": 3,
