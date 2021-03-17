@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+[14Mar2021 03:46:46.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Mar2021 03:46:46.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Mar2021 03:46:46.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Mar2021 03:46:46.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Mar2021 03:46:47.465] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Mar2021 03:46:47.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Mar2021 03:46:47.467] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Mar2021 03:46:47.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Mar2021 03:46:47.468] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Mar2021 03:46:47.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/astral:inner_realm
+[14Mar2021 03:46:47.470] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
+[14Mar2021 03:46:47.531] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Mar2021 03:46:47.536] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Mar2021 03:46:47.537] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Mar2021 03:46:47.537] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
+[14Mar2021 03:46:47.548] [Server thread/INFO] [enderchests/]: Unloading EnderChest Data
+[14Mar2021 03:46:47.548] [Server thread/INFO] [enderchests/]: Finished Unloading EnderChest Data
+=======
 [16Mar2021 12:23:48.111] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.37, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, nogui]
 [16Mar2021 12:23:48.115] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_281 by Oracle Corporation
 [16Mar2021 12:23:50.309] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
@@ -4584,3 +4603,4 @@ Caused by: java.lang.InterruptedException
 	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-3.12.1.jar:?]
 	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-3.12.1.jar:?]
 	... 4 more
+>>>>>>> master
