@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2021-03-16 01:46:19 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/plate_constantan_hammering": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
@@ -1674,6 +1680,12 @@
     },
     "done": true
   },
+  "astral:imparting_the_spirit": {
+    "criteria": {
+      "imparting_the_spirit": "2021-03-16 05:31:19 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
@@ -1810,7 +1822,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2021-03-10 23:25:14 -0800",
       "minecraft:nether_wastes": "2021-03-10 23:20:17 -0800",
-      "minecraft:warped_forest": "2021-03-10 23:19:33 -0800"
+      "minecraft:warped_forest": "2021-03-10 23:19:33 -0800",
+      "minecraft:basalt_deltas": "2021-03-16 02:31:40 -0700"
     },
     "done": false
   },
@@ -1841,6 +1854,12 @@
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/connect_wire": {
+    "criteria": {
+      "code_trigger": "2021-03-14 05:21:10 -0700"
     },
     "done": true
   },
@@ -2882,6 +2901,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2021-03-16 03:03:19 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/granite_bricks_from_granite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -3485,6 +3510,12 @@
   "minecraft:recipes/building_blocks/smooth_red_sandstone": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hidden_books": {
+    "criteria": {
+      "book": "2021-03-16 04:05:08 -0700"
     },
     "done": true
   },
@@ -4460,6 +4491,12 @@
     },
     "done": true
   },
+  "vampirism:main/root": {
+    "criteria": {
+      "second": "2021-03-16 04:08:24 -0700"
+    },
+    "done": true
+  },
   "create:recipes/transportation/crafting/kinetics/minecart_from_contraption_cart": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
@@ -4475,6 +4512,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:village/village_mountains": {
+    "criteria": {
+      "in_village_mountains": "2021-03-13 23:39:54 -0800"
     },
     "done": true
   },
@@ -4925,8 +4968,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2021-03-11 23:20:12 -0800",
+      "minecraft:skeleton": "2021-03-14 04:57:02 -0700",
       "minecraft:magma_cube": "2021-03-12 00:33:58 -0800",
       "minecraft:spider": "2021-03-10 20:22:42 -0800",
+      "minecraft:piglin_brute": "2021-03-16 01:53:05 -0700",
+      "minecraft:piglin": "2021-03-16 01:52:44 -0700",
       "minecraft:enderman": "2021-03-10 19:47:05 -0800",
       "minecraft:zombie": "2021-03-10 21:32:39 -0800",
       "minecraft:zombie_villager": "2021-03-10 03:28:03 -0800"
@@ -4954,6 +5000,12 @@
   "create:recipes/create.palettes/dark_scoria_cobblestone_from_dark_scoria_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-03-16 05:31:19 -0700"
     },
     "done": true
   },
@@ -4990,6 +5042,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramid/pyramid_nether": {
+    "criteria": {
+      "in_pyramid_nether": "2021-03-16 02:32:01 -0700"
     },
     "done": true
   },
@@ -5374,6 +5432,12 @@
   "create:recipes/misc/blasting/iron_ingot_from_crushed": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshaft/mineshaft_nether": {
+    "criteria": {
+      "in_mineshaft_nether": "2021-03-16 02:16:46 -0700"
     },
     "done": true
   },
@@ -7105,6 +7169,12 @@
     },
     "done": true
   },
+  "repurposed_structures:shipwreck/shipwreck_warped": {
+    "criteria": {
+      "in_shipwreck_warped": "2021-03-16 02:37:44 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_copper_from_dust_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
@@ -7696,6 +7766,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_drum": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2021-03-16 01:52:40 -0700"
     },
     "done": true
   },
@@ -8644,6 +8720,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_magenta_to_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:09 -0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_crusher": {
+    "criteria": {
+      "crusher": "2021-03-14 05:18:19 -0700"
     },
     "done": true
   },
@@ -12052,6 +12134,12 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2021-03-16 01:46:15 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_limestone_wall": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
@@ -13672,6 +13760,12 @@
     },
     "done": true
   },
+  "repurposed_structures:outpost/outpost_nether_brick": {
+    "criteria": {
+      "in_outpost_nether_brick": "2021-03-16 01:51:36 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
@@ -14137,12 +14231,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2021-03-09 17:36:12 -0800",
+      "minecraft:snowy_mountains": "2021-03-16 04:04:24 -0700",
       "minecraft:forest": "2021-03-09 02:22:40 -0800",
       "minecraft:mountains": "2021-03-10 22:23:18 -0800",
       "minecraft:taiga": "2021-03-11 00:33:42 -0800",
       "minecraft:desert_hills": "2021-03-12 03:10:06 -0800",
       "minecraft:deep_cold_ocean": "2021-03-11 00:51:50 -0800",
+      "minecraft:snowy_tundra": "2021-03-16 04:04:16 -0700",
       "minecraft:desert": "2021-03-12 03:09:16 -0800",
+      "minecraft:frozen_river": "2021-03-16 04:18:44 -0700",
       "minecraft:deep_frozen_ocean": "2021-03-12 02:30:18 -0800",
       "minecraft:birch_forest": "2021-03-09 02:23:48 -0800",
       "minecraft:deep_lukewarm_ocean": "2021-03-11 17:30:50 -0800",
@@ -14153,7 +14250,9 @@
       "minecraft:birch_forest_hills": "2021-03-10 00:06:05 -0800",
       "minecraft:wooded_mountains": "2021-03-10 22:42:10 -0800",
       "minecraft:wooded_hills": "2021-03-10 23:56:24 -0800",
+      "minecraft:stone_shore": "2021-03-14 04:20:05 -0700",
       "minecraft:swamp": "2021-03-11 00:16:41 -0800",
+      "minecraft:snowy_taiga_hills": "2021-03-16 04:03:59 -0700",
       "minecraft:savanna": "2021-03-12 03:09:00 -0800",
       "minecraft:plains": "2021-03-09 02:20:14 -0800"
     },
@@ -16124,6 +16223,12 @@
   "create:recipes/create.palettes/limestone_bricks_from_limestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "vampirism:main/regicide": {
+    "criteria": {
+      "main": "2021-03-16 03:59:34 -0700"
     },
     "done": true
   },

@@ -1115,6 +1115,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-03-14 22:01:52 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/misc/crafting/gold_ingot_from_dust_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:26 -0800"
@@ -3654,6 +3660,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-03-14 14:48:28 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_green_from_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:27 -0800"
@@ -4880,9 +4892,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2021-03-14 22:07:49 -0700",
       "minecraft:skeleton": "2021-03-11 21:43:39 -0800",
+      "minecraft:magma_cube": "2021-03-14 22:09:02 -0700",
       "minecraft:spider": "2021-03-13 09:52:53 -0800",
       "minecraft:creeper": "2021-03-10 17:08:41 -0800",
+      "minecraft:phantom": "2021-03-13 18:19:37 -0800",
       "minecraft:wither_skeleton": "2021-03-09 17:55:41 -0800",
       "minecraft:cave_spider": "2021-03-10 20:50:43 -0800",
       "minecraft:piglin": "2021-03-09 18:22:16 -0800",
@@ -8592,6 +8607,12 @@
   "create:recipes/create.base/crafting/kinetics/yellow_seat": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:27 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candelabra_silver": {
+    "criteria": {
+      "has_item": "2021-03-14 20:12:57 -0700"
     },
     "done": true
   },
@@ -13767,6 +13788,12 @@
     },
     "done": true
   },
+  "astral:ethereal_hunter": {
+    "criteria": {
+      "kill_spiritual": "2021-03-13 18:19:37 -0800"
+    },
+    "done": false
+  },
   "rftoolsutility:recipes/rftoolsutility/sequencer": {
     "criteria": {
       "has_the_recipe": "2021-03-08 21:02:24 -0800"
@@ -13988,6 +14015,7 @@
       "minecraft:beach": "2021-03-10 11:44:36 -0800",
       "minecraft:river": "2021-03-10 11:43:13 -0800",
       "minecraft:birch_forest_hills": "2021-03-10 11:44:13 -0800",
+      "minecraft:wooded_hills": "2021-03-14 22:42:50 -0700",
       "minecraft:swamp": "2021-03-11 07:24:46 -0800",
       "minecraft:plains": "2021-03-08 21:02:27 -0800"
     },
@@ -14727,10 +14755,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-03-14 22:22:04 -0700",
+      "baked_potato": "2021-03-14 20:45:02 -0700",
       "rabbit_stew": "2021-03-09 08:25:26 -0800",
       "sweet_berries": "2021-03-11 16:51:52 -0800",
       "apple": "2021-03-09 08:28:17 -0800",
-      "bread": "2021-03-09 17:40:31 -0800"
+      "bread": "2021-03-09 17:40:31 -0800",
+      "carrot": "2021-03-14 20:34:43 -0700"
     },
     "done": false
   },

@@ -7,5 +7,6 @@ do
    COMMIT_MESSAGE=$(date)
    git commit -m "{$COMMIT_MESSAGE}"
    git push
+   sleep 10
    echo "Run $i exited"
 done
