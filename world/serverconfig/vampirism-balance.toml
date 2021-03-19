@@ -8,7 +8,7 @@
 		vampireSpawnChance = 75
 		#Advanceed vampire spawn chance/weight (e.g. Zombie: 100)
 		#Range: 0 ~ 100000
-		advancedVampireSpawnChance = 25
+		advancedVampireSpawnChance = 19
 
 	[balance.general]
 		#Damage a normal holy water splash bottle does when directly hitting a vampire
@@ -32,7 +32,7 @@
 		#Range: 0.0 ~ 100.0
 		heartSeekerUsageFactor = 0.5
 		#Range: > 1
-		vampireForestWeight = 4
+		vampireForestWeight = 3
 		#If iron golems should attack faction NPCs if in a village with a different faction
 		golemAttackNonVillageFaction = true
 		#The base damage dealt by crossbow arrows is multiplied by this
@@ -42,7 +42,7 @@
 		#Range: > 1
 		taskMasterMaxTaskAmount = 3
 		#Whether special crossbow arrows (e.g. spitfire) can be used with infinity enchantment
-		allowInfiniteSpecialArrows = true
+		allowInfiniteSpecialArrows = false
 		#Holy water damage is multiplied with this value for each tier above normal
 		#Range: 1.0 ~ 10.0
 		holyWaterTierDamageInc = 2.0
@@ -53,7 +53,7 @@
 		skillPointsPerLevel = 1
 		#Desired maximum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
 		#Range: 2 ~ 4096
-		hunterTentDistance = 20
+		hunterTentDistance = 10
 		#Duration of the nausea effect caused by enhanced or special holy water (ticks)
 		#Range: 0 ~ 1000
 		holyWaterNauseaDuration = 200
@@ -61,7 +61,7 @@
 		#Range: > 1
 		arrowVampireKillerMaxHealth = 40
 		#Range: > 1
-		vampireForestHillsWeight = 4
+		vampireForestHillsWeight = 3
 		#Maximum number of hunters that can spawn at one tent per day
 		#Range: 0 ~ 20
 		hunterTentMaxSpawn = 4
@@ -114,7 +114,7 @@
 		disguiseEnabled = true
 		#In seconds
 		#Range: > 1
-		sunscreenDuration = 120
+		sunscreenDuration = 40
 		#In seconds
 		#Range: > 10
 		batDuration = 2147483647
@@ -124,7 +124,7 @@
 		batCooldown = 0
 		#In seconds
 		#Range: 0 ~ 1000
-		sunscreenCooldown = 180
+		sunscreenCooldown = 500
 		#In seconds
 		#Range: 1 ~ 10000
 		disguiseCooldown = 60
@@ -168,7 +168,7 @@
 		halfInvulnerableThreshold = 0.4
 		#The player health will be reduced by this factor
 		#Range: 0.0 ~ 0.95
-		batHealthReduction = 0.65
+		batHealthReduction = 0.9
 		summonBatsEnabled = true
 		#In seconds
 		#Range: > 1
@@ -215,9 +215,9 @@
 	[balance.vampirePlayer]
 		#Defines the maximum extend the yellow border covers when the player is in the sun. 100 is default. 0 to disable completely
 		#Range: 0 ~ 100
-		maxYellowBorderPercentage = 75
+		maxYellowBorderPercentage = 100
 		#Range: 0.5 ~ 40.0
-		healthMaxMod = 30.0
+		healthMaxMod = 16.0
 		#Blood exhaustion is multiplied with this value
 		#Range: 0.0 ~ 5.0
 		basicBloodExhaustionMod = 0.7
@@ -225,9 +225,9 @@
 		biteDamage = 4
 		#Multiply fire damage with this for vampires
 		#Range: 0.1 ~ 1.7976931348623157E308
-		fireVulnerabilityMod = 2.0
+		fireVulnerabilityMod = 3.0
 		#Range: > 1
-		sundamageWeaknessMinLevel = 3
+		sundamageWeaknessMinLevel = 2
 		#Range: 0.5 ~ 2.0
 		strengthMaxMod = 1.0
 		#Range: > 1
@@ -239,16 +239,16 @@
 		#Whether blood is consumed in peaceful gamemode
 		bloodUsagePeaceful = false
 		#Range: 1 ~ 10
-		sundamageWaterblocks = 2
+		sundamageWaterblocks = 4
 		#Range: > 1
 		sundamageNauseaMinLevel = 3
 		#Whether to replace the vanilla fire resistance potion for vampires with a custom one that only reduces damage but does not remove it
 		fireResistanceReplace = true
 		#Range: 1.0 ~ 1.7976931348623157E308
-		sundamage = 4.0
+		sundamage = 7.0
 		sundamageNausea = true
 		#Range: 0.3 ~ 10.0
-		playerBloodSaturation = 2.0
+		playerBloodSaturation = 1.5
 		#Range: 1 ~ 10000
 		sanguinareAverageDuration = 900
 
@@ -320,21 +320,21 @@
 	[balance.vampireSkills]
 		#Blood exhaustion is multiplied with (value+1)
 		#Range: -1.0 ~ 0.0
-		bloodThirstReduction1 = -0.6
+		bloodThirstReduction1 = -0.4
 		#Disables the effect of 'Avoided by creepers'. Can still be unlocked though.
 		disableAvoidedByCreepers = false
 		#Bite damage is multiplied with (value+1)
 		#Range: 0.0 ~ 100.0
-		biteDamageMult = 2.0
+		biteDamageMult = 1.0
 		#Max speed is multiplied with (value+1)
 		#Range: 0.0 ~ 3.0
-		speedBoost = 0.25
+		speedBoost = 0.15
 		#Sundamage is multipled with (value+1)
 		#Range: -1.0 ~ 0.0
-		sundamageReduction1 = -0.6
+		sundamageReduction1 = -0.3
 		#The max relative health for sword finisher kill
 		#Range: 0.0 ~ 1.0
-		swordFinisherMaxHealth = 0.30
+		swordFinisherMaxHealth = 0.25
 		#Similar to potion effect ampliofier (and -1 is normal)
 		#Range: -1 ~ 5
 		jumpBoost = 1
@@ -354,15 +354,15 @@
 		totemWeight = 20
 		#Time in 2*seconds in capture phase 2 after which the capture entities should find a target regardless of distance
 		#Range: 1 ~ 1000
-		forceTargetTime = 40
+		forceTargetTime = 80
 		#Duration of phase 1 of the capturing process in 2*seconds
 		#Range: 1 ~ 1000
-		phase1Duration = 60
+		phase1Duration = 80
 		#Whether grass should slowly be replaced with cursed earth in vampire villages
 		replaceBlocks = true
 		#Maximum range of a Totem to grow the village
 		#Range: > 0
-		maxTotemRadius = 120
+		maxTotemRadius = 100
 
 	[balance.minions]
 		#Time in seconds a minion needs to recover from death.
@@ -377,3 +377,4 @@
 		#Cooldown multiplier for collect resource task types while player is offline
 		#Range: 1.0 ~ 100000.0
 		resourceCooldownOfflineMult = 4.0
+

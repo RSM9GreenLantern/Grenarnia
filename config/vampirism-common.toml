@@ -22,3 +22,4 @@
 	umbrella = true
 	#Enforce tent generation in any overworld world, even if they were not included in modded or datapack world-types on purpose. Does not affect Server#disableTentGeneration or disable tent generation itself.
 	enforceOverworldTentGeneration = true
+

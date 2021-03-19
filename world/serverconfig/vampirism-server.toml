@@ -1,12 +1,12 @@
 
 #Server configuration settings
 [server]
-	#Changes if entities are recognized as hostile by other mods. See https://github.com/TeamLapen/Vampirism/issues/199. Smart falls back to Never on servers
+	#Changes if entities are recognized as hostile by other mods. See https://github.com/TeamLapen/Vampirism/issues/199. Smart falls back to Never on servers 
 	#Allowed Values: ALWAYS_IMOB, NEVER_IMOB, SMART
 	entitiesIMob = "SMART"
 	#Block radius the sunscreen beacon affects
 	#Range: 1 ~ 40000
-	sunscreenBeaconDistance = 64
+	sunscreenBeaconDistance = 32
 	#Whether the suncreen beacon can be mined in survival
 	sunscreenBeaconMineable = false
 	#If PVP should only be allowed between factions. PVP has to be enabled in the server properties for this. Not guaranteed to always protect player from teammates
@@ -18,13 +18,13 @@
 	#Prevent clients from disabling the vampire forest fog
 	enforceForestFog = true
 	#If vampires can convert to a bat in the End
-	batModeInEnd = true
+	batModeInEnd = false
 	#Whether to add a prefix title based on the current lord level to the player names
 	lordPrefixInChat = true
 	#Calculate the blood level for unknown creatures based on their size
 	autoCalculateEntityBlood = true
 	#Whether players can infect other players
-	playersCanTurnPlayers = false
+	playersCanTurnPlayers = true
 
 	[server.internal]
 		#Send message about Guide-API once
@@ -57,7 +57,7 @@
 
 	[server.cheats]
 		#CHEAT: If enabled, you will be able to unlock all skills at max level
-		allSkillsAtMaxLevel = true
+		allSkillsAtMaxLevel = false
 
 	[server.village]
 		#Desired maximum distance between villages in chunks
@@ -66,3 +66,4 @@
 		#Minimum distance between villages in chunks. Must be smaller than distance
 		#Range: 1 ~ 100
 		villageSeparation = 6
+

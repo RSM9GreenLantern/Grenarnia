@@ -8,7 +8,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 4.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.5
 
@@ -37,7 +37,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 12.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
 
@@ -68,7 +68,7 @@
 		#Effects duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 5.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
 
@@ -103,7 +103,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 10.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
 
@@ -111,7 +111,7 @@
 	[Features.Jockey]
 		#Is this feature enabled?
 		is_enabled = true
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.125
 
@@ -122,7 +122,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 6.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.75
 
@@ -155,7 +155,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 12.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
 
@@ -163,7 +163,7 @@
 	[Features.EndermanAttack]
 		#Is this feature enabled?
 		is_enabled = true
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
 
@@ -247,7 +247,7 @@
 	[Features.SpawnBonuses]
 		#Is this feature enabled?
 		is_enabled = false
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
 		#Extra damage and health multiplier at night.
@@ -285,7 +285,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 15.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
 
@@ -378,7 +378,7 @@
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 24.0
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
 
@@ -386,7 +386,7 @@
 	[Features.EvokerTotem]
 		#Is this feature enabled?
 		is_enabled = true
-		#Chance of this feature to happen.
+		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
 
@@ -518,3 +518,4 @@
 		#Master Mode
 		#Range: 4 ~ 1000
 		master = 120
+
