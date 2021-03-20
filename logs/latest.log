@@ -1,5 +1,408 @@
-[18Mar2021 23:02:24.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.37, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, nogui]
-[18Mar2021 23:02:24.938] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_281 by Oracle Corporation
-[18Mar2021 23:02:25.652] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[18Mar2021 23:02:25.655] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: E:\Greniarnia\Grenarnia\mods\OptiFine_1.16.4_HD_U_G7.jar
-[18Mar2021 23:02:25.667] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[20Mar2021 00:25:12.578] [Netty Server IO #3/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[20Mar2021 00:25:13.209] [User Authenticator #12/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Hio102 is a1b82622-16ff-4a08-872e-9132865ba162
+[20Mar2021 00:25:19.693] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@72c719be
+[20Mar2021 00:25:19.803] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Hio102[/10.6.220.12:51378] logged in with entity id 398345 at (-5218.2600321424015, 97.09729659597909, -786.405873527546)
+[20Mar2021 00:25:19.817] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Hio102 joined the game
+[20Mar2021 00:25:35.092] [Server thread/ERROR] [journeymap/]: Failed to read message for worldId: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[20Mar2021 00:26:58.266] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 8.028876650478196,0.0,-6.278208153349851
+[20Mar2021 00:27:26.153] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d4b6faa0-c34e-44db-9df8-eafe071bcd42. Existing minecraft:chest_minecart#400560, new: minecraft:chest_minecart#400970
+[20Mar2021 00:27:26.474] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 31a3b16d-5cd7-4205-87e3-7682e96a07da. Existing minecraft:chest_minecart#400562, new: minecraft:chest_minecart#400985
+[20Mar2021 00:27:26.927] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 374b6640-7005-4526-8fda-2cf0839043c3. Existing minecraft:chest_minecart#400553, new: minecraft:chest_minecart#401013
+[20Mar2021 00:27:27.068] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 24d57bc7-c542-4688-bdb3-b91bd699ed39. Existing minecraft:chest_minecart#400561, new: minecraft:chest_minecart#401029
+[20Mar2021 00:27:27.371] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 84375efd-ec6c-4ea3-9175-43c15a7c4b65. Existing minecraft:chest_minecart#400475, new: minecraft:chest_minecart#401059
+[20Mar2021 00:27:28.335] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID aa81f042-15b6-4d99-8b5d-70492504dd66. Existing minecraft:chest_minecart#400407, new: minecraft:chest_minecart#401107
+[20Mar2021 00:27:28.557] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID be80974c-6eb2-404b-9a9a-dad809282146. Existing minecraft:chest_minecart#400413, new: minecraft:chest_minecart#401126
+[20Mar2021 00:27:28.644] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID fc0e9442-f9b3-4056-9d98-5ce5ce5183a0. Existing minecraft:chest_minecart#400379, new: minecraft:chest_minecart#401144
+[20Mar2021 00:28:46.060] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b5cfe116-1d1b-4e05-b8fd-645559a86bf0. Existing minecraft:chest_minecart#401239, new: minecraft:chest_minecart#402565
+[20Mar2021 00:28:48.248] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8e1bc4fc-1a4d-4687-9037-da0d4f218107. Existing minecraft:chest_minecart#401360, new: minecraft:chest_minecart#402627
+[20Mar2021 00:28:48.250] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID ca15d91c-1713-4e22-b50b-f1ea111bd8fc. Existing minecraft:tnt_minecart#401361, new: minecraft:tnt_minecart#402628
+[20Mar2021 00:28:51.843] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 951ea73d-aa34-4bce-9e7d-e7a6b2c10c02. Existing minecraft:chest_minecart#401569, new: minecraft:chest_minecart#402714
+[20Mar2021 00:28:52.174] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8c57c1e2-9b3c-4577-bfb7-4504ef6698fa. Existing minecraft:chest_minecart#401677, new: minecraft:chest_minecart#402737
+[20Mar2021 00:28:54.652] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 7a0a3b8a-2280-4fea-9d8a-1ce3ef4209bf. Existing minecraft:chest_minecart#401632, new: minecraft:chest_minecart#402812
+[20Mar2021 00:28:54.730] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 7.562551438039009,0.0,-7.935134488580843
+[20Mar2021 00:28:56.051] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0a9945ea-0291-4540-b869-f7e4f9a01e99. Existing minecraft:chest_minecart#401839, new: minecraft:chest_minecart#402908
+[20Mar2021 00:28:56.639] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 204dbef9-57c1-45d0-bf5f-b3f70a428a04. Existing minecraft:chest_minecart#401782, new: minecraft:chest_minecart#402938
+[20Mar2021 00:28:57.515] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0f672e2f-9bcd-4b10-bc81-28f0ce7e1506. Existing minecraft:chest_minecart#401747, new: minecraft:chest_minecart#402997
+[20Mar2021 00:28:57.519] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f9a04843-eac9-4fc9-9cbb-4e693d8a8028. Existing minecraft:item#401783, new: minecraft:item#402998
+[20Mar2021 00:28:57.521] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 99316141-023a-4665-b1ca-3488f3c30458. Existing minecraft:item#401841, new: minecraft:item#402999
+[20Mar2021 00:28:57.526] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4c4cb9cc-3d1a-469c-aadb-11f8016e89ab. Existing minecraft:item#401843, new: minecraft:item#403000
+[20Mar2021 00:28:57.527] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2ebe5527-7df9-4b1a-b7ef-9f326cf5ed9a. Existing minecraft:item#401847, new: minecraft:item#403001
+[20Mar2021 00:28:57.528] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4e782558-8fc9-4e2b-80f4-7303ae3fca7c. Existing minecraft:item#401848, new: minecraft:item#403002
+[20Mar2021 00:28:57.531] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4bc604dc-5a0d-4bd9-bfd4-17a2c788962d. Existing minecraft:item#401849, new: minecraft:item#403003
+[20Mar2021 00:28:57.656] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8e892ba4-baf0-4a14-a900-6813476085c7. Existing minecraft:chest_minecart#401751, new: minecraft:chest_minecart#403038
+[20Mar2021 00:29:31.068] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5152f5a8-fb2e-4389-94f2-933abd4d804e. Existing minecraft:chest_minecart#403525, new: minecraft:chest_minecart#404044
+[20Mar2021 00:29:31.668] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5329686a-9c2c-48b4-a09d-3ebf726299d6. Existing minecraft:chest_minecart#403526, new: minecraft:chest_minecart#404105
+[20Mar2021 00:29:38.927] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID ff892f03-5330-4625-8346-90dbdead3cbd. Existing minecraft:chest_minecart#403413, new: minecraft:chest_minecart#404353
+[20Mar2021 00:29:38.928] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 72287680-3abb-4703-a0fe-858bf0da9e66. Existing minecraft:chest_minecart#403412, new: minecraft:chest_minecart#404354
+[20Mar2021 00:29:38.970] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 10.156466797509893,0.0,-0.4990179385895317
+[20Mar2021 00:29:39.836] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 9e1aaa5d-d69e-4525-b386-147cd00301d3. Existing minecraft:chest_minecart#403109, new: minecraft:chest_minecart#404491
+[20Mar2021 00:29:40.014] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e93b428f-2ca3-47a0-8fcc-3b4ac68039e6. Existing minecraft:chest_minecart#403113, new: minecraft:chest_minecart#404542
+[20Mar2021 00:29:41.101] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8053dd6d-d1db-40c1-bb86-0b7154fef7b4. Existing minecraft:chest_minecart#403152, new: minecraft:chest_minecart#404602
+[20Mar2021 00:29:41.102] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b9e75e38-3ce0-41aa-9e99-a324aa4990a9. Existing minecraft:item#403744, new: minecraft:item#404603
+[20Mar2021 00:29:41.153] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 10.457304828193628,0.0,-0.5111660763300279
+[20Mar2021 00:29:41.794] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0b3586b1-8b49-472c-9545-f2fe8ecf89b1. Existing minecraft:chest_minecart#403141, new: minecraft:chest_minecart#404624
+[20Mar2021 00:29:41.795] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID ba12803e-5336-42fe-9052-41bf13a386e8. Existing alexsmobs:fly#403114, new: alexsmobs:fly#404625
+[20Mar2021 00:29:44.852] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b1f45e0f-f1dd-4166-96ec-50ab9f075af6. Existing minecraft:chest_minecart#403497, new: minecraft:chest_minecart#404711
+[20Mar2021 00:29:45.659] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 07a217ee-4f2a-4633-99f4-2e871e5b6294. Existing minecraft:chest_minecart#403327, new: minecraft:chest_minecart#404757
+[20Mar2021 00:29:46.037] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3de5d9d6-31f6-493d-980d-08a8e8894024. Existing minecraft:chest_minecart#403491, new: minecraft:chest_minecart#404789
+[20Mar2021 00:29:46.307] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 20da70ce-b5f1-4758-927e-53ca72583f45. Existing minecraft:chest_minecart#403627, new: minecraft:chest_minecart#404809
+[20Mar2021 00:29:46.408] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8faf8c81-e204-48a6-b1fe-ee5e39867852. Existing minecraft:chest_minecart#403434, new: minecraft:chest_minecart#404834
+[20Mar2021 00:29:49.030] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID cdbbfc9c-2ba3-4790-beae-a52d82f40254. Existing minecraft:chest_minecart#403436, new: minecraft:chest_minecart#405011
+[20Mar2021 00:29:49.031] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8b9008b5-81ec-4dff-8b3d-e9a50fd01df7. Existing minecraft:chest_minecart#403437, new: minecraft:chest_minecart#405012
+[20Mar2021 00:29:49.081] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 9.802159572539495,0.0,3.5261678821534588
+[20Mar2021 00:29:49.356] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 6a4de897-53dd-4787-a3fa-c8f444598070. Existing minecraft:chest_minecart#403370, new: minecraft:chest_minecart#405061
+[20Mar2021 00:29:49.493] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5af1891a-d841-4ce8-b538-1fe56fbd082d. Existing minecraft:chest_minecart#403496, new: minecraft:chest_minecart#405093
+[20Mar2021 00:29:50.160] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f2353571-1c2c-4bc1-b1bb-1b346dbc17fb. Existing minecraft:chest_minecart#403471, new: minecraft:chest_minecart#405121
+[20Mar2021 00:29:50.358] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a507c361-ac7c-4f06-a0d4-fe0ce8b81976. Existing minecraft:chest_minecart#403477, new: minecraft:chest_minecart#405163
+[20Mar2021 00:29:50.593] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID edf32a60-2ecc-4a93-91b1-f04058a7e518. Existing minecraft:chest_minecart#403472, new: minecraft:chest_minecart#405199
+[20Mar2021 00:29:50.832] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2aec668f-6faa-41d3-ab73-3f360ed4985d. Existing minecraft:chest_minecart#403671, new: minecraft:chest_minecart#405221
+[20Mar2021 00:29:50.834] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b7f0b9d5-aa68-4756-9ac1-1359e1ab20cb. Existing minecraft:chest_minecart#403672, new: minecraft:chest_minecart#405222
+[20Mar2021 00:29:51.120] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 275643a4-26a2-4a1b-a2f4-9349c119f0f7. Existing minecraft:chest_minecart#403536, new: minecraft:chest_minecart#405256
+[20Mar2021 00:29:51.121] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2f610624-e18a-4149-9c87-a1120b1d7aee. Existing minecraft:chest_minecart#403537, new: minecraft:chest_minecart#405257
+[20Mar2021 00:29:53.360] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5626f812-f41a-46e2-8fd3-4c209b4aa023. Existing minecraft:chest_minecart#403821, new: minecraft:chest_minecart#405589
+[20Mar2021 00:29:55.845] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 49028955-1f56-4828-b01a-a2e03ab858bd. Existing minecraft:chest_minecart#403982, new: minecraft:chest_minecart#405796
+[20Mar2021 00:29:56.644] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 9f600b32-673f-4acb-b02b-eb866e946959. Existing minecraft:chest_minecart#404021, new: minecraft:chest_minecart#406017
+[20Mar2021 00:29:57.406] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0c5a72d7-6c8e-43a4-a1fd-ecf3164841cc. Existing minecraft:chest_minecart#404039, new: minecraft:chest_minecart#406129
+[20Mar2021 00:29:57.528] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5d14ce60-3002-4513-abdd-863c90404e7b. Existing minecraft:chest_minecart#404043, new: minecraft:chest_minecart#406179
+[20Mar2021 00:29:58.228] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d702c79a-8bc8-4717-985d-39a887e36200. Existing minecraft:chest_minecart#404143, new: minecraft:chest_minecart#406201
+[20Mar2021 00:29:58.307] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 046f9fcf-fea5-4410-8486-8b8455c89db0. Existing minecraft:chest_minecart#404142, new: minecraft:chest_minecart#406231
+[20Mar2021 00:29:59.074] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0d91d635-fd49-4102-9487-38aa61c14c80. Existing minecraft:chest_minecart#404174, new: minecraft:chest_minecart#406340
+[20Mar2021 00:29:59.226] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 6e001945-2a2a-4d93-be9d-06090aa518ea. Existing minecraft:chest_minecart#404195, new: minecraft:chest_minecart#406385
+[20Mar2021 00:29:59.227] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5a6ee9b4-db51-417a-b43a-a87bf6b24274. Existing minecraft:falling_block#404727, new: minecraft:falling_block#406386
+[20Mar2021 00:29:59.843] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 256df625-df06-47e2-b8f3-86c9c9adb6e8. Existing minecraft:chest_minecart#404177, new: minecraft:chest_minecart#406411
+[20Mar2021 00:29:59.966] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 696a9cb1-dff0-4e89-9ae1-a3ee2fa5b5f0. Existing minecraft:chest_minecart#404178, new: minecraft:chest_minecart#406457
+[20Mar2021 00:30:00.038] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4be8ed29-c1fe-4dfd-881d-30a4e31d1586. Existing minecraft:chest_minecart#404175, new: minecraft:chest_minecart#406480
+[20Mar2021 00:30:02.629] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 618b0954-5712-4597-8f2c-f5b29bee494a. Existing minecraft:chest_minecart#404710, new: minecraft:chest_minecart#406687
+[20Mar2021 00:30:03.507] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 1bfc5ed9-74a2-4a06-a16c-3c8cd35cecea. Existing minecraft:chest_minecart#405255, new: minecraft:chest_minecart#406720
+[20Mar2021 00:30:05.201] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c6ab7dd8-7f76-4d30-a623-b4ac2d940cf2. Existing minecraft:chest_minecart#404867, new: minecraft:chest_minecart#406830
+[20Mar2021 00:30:05.236] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 9.801563838039328,0.0,3.5000180168699444
+[20Mar2021 00:30:05.994] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 9b26bd40-5423-4cc0-abf8-76ad67deec71. Existing minecraft:chest_minecart#405010, new: minecraft:chest_minecart#406868
+[20Mar2021 00:30:06.219] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID bb0ed681-8a3e-47a8-ac4e-b03af63255d0. Existing minecraft:chest_minecart#405005, new: minecraft:chest_minecart#406895
+[20Mar2021 00:30:06.220] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 02d73c05-40b9-4256-a3d1-4d3ace4d50d9. Existing minecraft:chest_minecart#405006, new: minecraft:chest_minecart#406896
+[20Mar2021 00:30:06.315] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 68fef3a4-9018-4412-ae1f-82cf05709231. Existing minecraft:chest_minecart#404914, new: minecraft:chest_minecart#406932
+[20Mar2021 00:30:06.367] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4e92f8a6-3381-483c-99dc-d07862eb79f0. Existing minecraft:chest_minecart#405007, new: minecraft:chest_minecart#406951
+[20Mar2021 00:30:06.667] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b11b15ba-a53f-4a67-8888-c9a1379dc527. Existing minecraft:chest_minecart#404594, new: minecraft:chest_minecart#406981
+[20Mar2021 00:30:07.021] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 349cfac5-ad81-4e7a-8d34-c4e1b7ce8cb7. Existing minecraft:chest_minecart#405008, new: minecraft:chest_minecart#407009
+[20Mar2021 00:30:07.022] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c7c076e2-52f9-4337-a374-603fd59936df. Existing minecraft:chest_minecart#405009, new: minecraft:chest_minecart#407010
+[20Mar2021 00:30:07.209] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2dd5df82-04e2-4d12-a6f2-138dfa7c4675. Existing minecraft:chest_minecart#404598, new: minecraft:chest_minecart#407049
+[20Mar2021 00:30:07.444] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 7a2133be-861d-4f36-90ef-72b1cadc2123. Existing minecraft:chest_minecart#404654, new: minecraft:chest_minecart#407069
+[20Mar2021 00:30:08.037] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 15fd6021-cd8a-475a-b1d0-5470bc4a3f27. Existing minecraft:chest_minecart#404668, new: minecraft:chest_minecart#407098
+[20Mar2021 00:30:25.260] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 9.802165815340231,0.0,3.526190614263669
+[20Mar2021 00:30:31.419] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Tried to add entity upgrade_aquatic:thrasher but it was marked as removed already
+[20Mar2021 00:30:31.917] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Tried to add entity upgrade_aquatic:thrasher but it was marked as removed already
+[20Mar2021 00:30:37.381] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4e7ea8ce-4263-4e22-9128-130ffc042e6f. Existing minecraft:chest_minecart#407417, new: minecraft:chest_minecart#408220
+[20Mar2021 00:30:41.687] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 39c84fc7-aebd-4e6e-a489-6acd58619ff3. Existing minecraft:chest_minecart#407334, new: minecraft:chest_minecart#408337
+[20Mar2021 00:30:43.230] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0e2a7e26-9cdb-4e1e-a4f2-b9c5985a6ee5. Existing minecraft:chest_minecart#407397, new: minecraft:chest_minecart#408409
+[20Mar2021 00:30:43.231] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3e043d9e-8e54-48bd-8204-358c5bffb346. Existing minecraft:chest_minecart#407398, new: minecraft:chest_minecart#408410
+[20Mar2021 00:30:44.225] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0dbd94f9-4320-4b07-865b-bbce9eec84b3. Existing minecraft:chest_minecart#407434, new: minecraft:chest_minecart#408495
+[20Mar2021 00:30:44.298] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 9.735322671906033,0.0,3.7061190673905458
+[20Mar2021 00:30:44.835] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 60173260-cd44-4ddb-8106-47df17616ac0. Existing minecraft:chest_minecart#407431, new: minecraft:chest_minecart#408557
+[20Mar2021 00:30:45.078] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 131f4446-31e3-4d64-b478-cd45e346145a. Existing minecraft:chest_minecart#407432, new: minecraft:chest_minecart#408584
+[20Mar2021 00:30:56.830] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d48b95f8-3c4d-4a51-a001-ec31935f7ca5. Existing minecraft:chest_minecart#408126, new: minecraft:chest_minecart#409135
+[20Mar2021 00:30:58.478] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e1686e92-ad5d-48b6-b0fd-3b9d3cb82146. Existing minecraft:chest_minecart#408676, new: minecraft:chest_minecart#409193
+[20Mar2021 00:30:58.599] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c7441c49-8126-4294-abd3-9a4839f91a44. Existing minecraft:chest_minecart#408706, new: minecraft:chest_minecart#409214
+[20Mar2021 00:31:21.006] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager ConvertedVillagerEntity['entity.vampirism.villager_converted.nitwit'/408881, l='ServerLevel[world]', x=-3175.26, y=63.39, z=-1459.88] died, message: 'Nitwit was slain by Iron Golem'
+[20Mar2021 00:31:57.683] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 8.049974018570538,2.1387243479966145,6.868433349486168
+[20Mar2021 00:32:08.657] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c594a80a-4873-430c-9122-80ac0c2ee274. Existing minecraft:chest_minecart#411100, new: minecraft:chest_minecart#411738
+[20Mar2021 00:32:18.535] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b64cc80e-e88b-4ce6-93fb-883c18095a70. Existing minecraft:chest_minecart#410270, new: minecraft:chest_minecart#412173
+[20Mar2021 00:32:20.077] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 47356aa3-5783-4932-83a9-4877a86c52a5. Existing minecraft:chest_minecart#410330, new: minecraft:chest_minecart#412227
+[20Mar2021 00:32:20.078] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c34ebb82-80fe-482c-9fdc-3bc19cdd827b. Existing minecraft:chest_minecart#410331, new: minecraft:chest_minecart#412228
+[20Mar2021 00:32:20.079] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 08282018-1786-44c2-bd2e-95530bc17d07. Existing minecraft:item#410452, new: minecraft:item#412229
+[20Mar2021 00:32:20.079] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2ec68e90-7b0f-49db-998d-f05607dab588. Existing minecraft:item#410472, new: minecraft:item#412230
+[20Mar2021 00:32:20.080] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c286c32c-2bee-4ea0-9ab6-20d5a2c78531. Existing minecraft:item#410490, new: minecraft:item#412231
+[20Mar2021 00:32:20.081] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID ff2fa57f-cba9-4a00-bb78-12cd905ec44c. Existing minecraft:item#410491, new: minecraft:item#412232
+[20Mar2021 00:32:20.081] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 4d4a36ec-0ef3-4f42-8cc1-77137a10f5c1. Existing minecraft:item#410504, new: minecraft:item#412233
+[20Mar2021 00:32:20.082] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 33023ffa-7cf4-4331-97d0-6ff0a5727ce1. Existing alexsmobs:rattlesnake#410364, new: alexsmobs:rattlesnake#412234
+[20Mar2021 00:32:20.166] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f41cbd53-506c-445c-b592-022a92a0fd08. Existing minecraft:chest_minecart#410245, new: minecraft:chest_minecart#412274
+[20Mar2021 00:32:20.226] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a649b911-8e98-43fd-8040-7cf40a8895dd. Existing minecraft:chest_minecart#410244, new: minecraft:chest_minecart#412291
+[20Mar2021 00:32:20.227] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 8a0b0598-125c-44ab-b683-eec63bf1fbd2. Existing minecraft:item#410373, new: minecraft:item#412292
+[20Mar2021 00:32:20.228] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID de804dfc-b929-4269-9690-7cc822c1371e. Existing minecraft:item#410383, new: minecraft:item#412293
+[20Mar2021 00:32:20.416] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b491d542-d2c6-4f92-afa9-238a37be8a22. Existing minecraft:chest_minecart#410259, new: minecraft:chest_minecart#412321
+[20Mar2021 00:32:20.417] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f5f28989-5420-49ef-bbf5-5cee02707155. Existing minecraft:chest_minecart#410260, new: minecraft:chest_minecart#412322
+[20Mar2021 00:32:22.036] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 7c826e53-8925-4116-9fdc-4957fe046727. Existing minecraft:chest_minecart#411344, new: minecraft:chest_minecart#412413
+[20Mar2021 00:32:22.039] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 1196c8f0-0065-4846-9f35-2b5c9db2cf33. Existing minecraft:falling_block#411417, new: minecraft:falling_block#412414
+[20Mar2021 00:32:24.127] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d7d5680f-8011-42e2-a3c3-47d9e8191ce5. Existing minecraft:chest_minecart#411508, new: minecraft:chest_minecart#412497
+[20Mar2021 00:32:25.071] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 472d746e-a944-43d0-acd6-97e2ce1bc6bf. Existing minecraft:chest_minecart#411507, new: minecraft:chest_minecart#412539
+[20Mar2021 00:32:26.082] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 48278a01-2a0e-43f9-bb2a-019a916abb90. Existing minecraft:chest_minecart#411481, new: minecraft:chest_minecart#412607
+[20Mar2021 00:32:26.185] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 78938bb6-e2c9-4f41-8f9d-54ed5622ec02. Existing minecraft:chest_minecart#411391, new: minecraft:chest_minecart#412622
+[20Mar2021 00:32:39.504] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 47abef0c-0cc7-4f73-92d7-0e19c13be137. Existing minecraft:chest_minecart#411432, new: minecraft:chest_minecart#413108
+[20Mar2021 00:32:39.514] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a19add5e-416e-4e71-bd16-e948ea65a492. Existing minecraft:chest_minecart#411433, new: minecraft:chest_minecart#413109
+[20Mar2021 00:32:40.242] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e128975a-8492-46c2-8f8d-20cf6ebe153e. Existing minecraft:chest_minecart#411345, new: minecraft:chest_minecart#413175
+[20Mar2021 00:32:41.241] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 279c4b4e-ef9b-4517-8113-8437a71fa7af. Existing minecraft:chest_minecart#411434, new: minecraft:chest_minecart#413231
+[20Mar2021 00:32:41.242] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 48dc1b09-19db-4dcf-aec9-548602520992. Existing minecraft:item#411584, new: minecraft:item#413232
+[20Mar2021 00:32:41.243] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a2a12eb9-8764-4f63-b75f-403be745167e. Existing minecraft:item#411663, new: minecraft:item#413233
+[20Mar2021 00:32:41.243] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b546777a-e3fd-4117-9e60-3d4348d6581d. Existing minecraft:item#411692, new: minecraft:item#413234
+[20Mar2021 00:32:41.244] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c340afd5-eb46-409a-b30c-3d7ae135cd1a. Existing minecraft:item#411693, new: minecraft:item#413235
+[20Mar2021 00:32:41.245] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 44c63090-cd4e-4a37-8435-19ea89b30441. Existing minecraft:item#411707, new: minecraft:item#413236
+[20Mar2021 00:32:41.247] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 940a2ae3-37b0-4345-ac05-7700e6870cf1. Existing alexsmobs:roadrunner#411416, new: alexsmobs:roadrunner#413237
+[20Mar2021 00:32:41.333] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a80d50cf-2945-416e-ad5f-00896507487a. Existing minecraft:chest_minecart#411390, new: minecraft:chest_minecart#413261
+[20Mar2021 00:32:41.334] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 982f6065-cb1b-49a4-bd8b-40c084a75b73. Existing minecraft:item#411694, new: minecraft:item#413262
+[20Mar2021 00:32:42.829] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID ee276a5e-ba6a-4ebb-bf9b-8605dbdb9999. Existing minecraft:chest_minecart#411535, new: minecraft:chest_minecart#413314
+[20Mar2021 00:32:42.830] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2c8789cf-30cc-4ae6-9fbf-eab100922205. Existing minecraft:chest_minecart#411536, new: minecraft:chest_minecart#413315
+[20Mar2021 00:32:42.831] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5dc7c574-9e57-450f-a6dd-30cd228c638b. Existing minecraft:item#411689, new: minecraft:item#413316
+[20Mar2021 00:32:42.832] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 85487645-0535-46b1-af70-9fd58ddbc9e8. Existing alexsmobs:elephant#411649, new: alexsmobs:elephant#413317
+[20Mar2021 00:32:42.834] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0e694485-81e7-40dc-9c0a-2da96c90fab0. Existing alexsmobs:elephant#411651, new: alexsmobs:elephant#413318
+[20Mar2021 00:32:42.936] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f91ac7bc-7de8-4b72-885e-6727511de8f9. Existing minecraft:chest_minecart#411525, new: minecraft:chest_minecart#413359
+[20Mar2021 00:32:42.937] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 9ba198a2-678c-4719-9c5a-20cad222f1b3. Existing minecraft:item#411662, new: minecraft:item#413360
+[20Mar2021 00:32:42.937] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0e7a7d70-192c-4503-9acb-27260acf2a2c. Existing minecraft:item#411691, new: minecraft:item#413361
+[20Mar2021 00:32:43.083] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID acf0a9cb-a853-4ac7-a5bb-be0b33299fb1. Existing minecraft:chest_minecart#411534, new: minecraft:chest_minecart#413383
+[20Mar2021 00:32:43.086] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID dd711b6f-a732-4ca5-abef-110fc9382ca1. Existing minecraft:item#411781, new: minecraft:item#413384
+[20Mar2021 00:32:43.087] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID fac39b15-7dba-4c8c-a89b-97b68284638d. Existing minecraft:item#411789, new: minecraft:item#413385
+[20Mar2021 00:32:43.089] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3ba4f300-5a47-422d-b569-0adcc5b220f4. Existing minecraft:item#411792, new: minecraft:item#413386
+[20Mar2021 00:32:43.091] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 73142b19-a893-4fcb-8a96-461eb37f5bfa. Existing minecraft:item#411800, new: minecraft:item#413387
+[20Mar2021 00:32:43.093] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 70a9580f-0ff8-4ac5-8b10-acc63db6eeb2. Existing minecraft:item#411803, new: minecraft:item#413388
+[20Mar2021 00:32:43.096] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 725dcb35-5d57-448b-9264-989bef847c18. Existing minecraft:item#411810, new: minecraft:item#413389
+[20Mar2021 00:32:43.097] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3632e238-9de0-4f53-9108-27d39fbbe520. Existing alexsmobs:elephant#411650, new: alexsmobs:elephant#413390
+[20Mar2021 00:32:43.182] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d4a06a87-aab0-4235-ba37-920a68f04f80. Existing minecraft:chest_minecart#411601, new: minecraft:chest_minecart#413418
+[20Mar2021 00:32:44.233] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID d252fe34-29ce-43d3-8615-25740fa24949. Existing minecraft:chest_minecart#411619, new: minecraft:chest_minecart#413459
+[20Mar2021 00:32:44.236] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 655e25ca-c51f-42a8-a193-228421f5e947. Existing minecraft:item#411804, new: minecraft:item#413460
+[20Mar2021 00:32:44.237] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 1b5f91c0-e1d9-4397-8319-a0b9b7b8e728. Existing alexsmobs:gazelle#411620, new: alexsmobs:gazelle#413461
+[20Mar2021 00:32:44.239] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0f642d00-acf2-41f7-b1fd-18f187a03168. Existing alexsmobs:gazelle#411621, new: alexsmobs:gazelle#413462
+[20Mar2021 00:32:44.240] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 09369884-1195-4657-a284-a23aa5c4f997. Existing alexsmobs:gazelle#411622, new: alexsmobs:gazelle#413463
+[20Mar2021 00:32:44.242] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a78f8a85-b2b1-4567-905c-62de7f1c2d62. Existing alexsmobs:gazelle#411623, new: alexsmobs:gazelle#413464
+[20Mar2021 00:32:44.366] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID bce5b55c-a82d-4f5b-8814-6ce16b2bf14b. Existing minecraft:chest_minecart#411624, new: minecraft:chest_minecart#413481
+[20Mar2021 00:32:44.498] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e05230b8-db2b-4161-9379-0de123b65f55. Existing minecraft:chest_minecart#411661, new: minecraft:chest_minecart#413509
+[20Mar2021 00:32:44.500] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 58ec2b78-e7c1-4558-a9ed-4ad1a9c491cf. Existing minecraft:item#412007, new: minecraft:item#413510
+[20Mar2021 00:32:45.284] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3f1b2b08-d2f5-4821-b28b-11fcee9bdda3. Existing minecraft:chest_minecart#411724, new: minecraft:chest_minecart#413555
+[20Mar2021 00:33:42.769] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/413003, l='ServerLevel[world]', x=-2688.54, y=71.00, z=-734.19] died, message: 'Villager was slain by Silverfish'
+[20Mar2021 00:35:10.254] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 408f383c-bea4-463b-9587-c680e61d924c. Existing minecraft:chest_minecart#412221, new: minecraft:chest_minecart#414667
+[20Mar2021 00:35:10.344] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 654ca104-d175-4d8a-8948-37e3a78bb255. Existing minecraft:chest_minecart#412200, new: minecraft:chest_minecart#414693
+[20Mar2021 00:35:10.346] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 1017461a-ee35-4447-b580-5d85ecf243fe. Existing alexsmobs:elephant#412201, new: alexsmobs:elephant#414694
+[20Mar2021 00:35:10.590] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e4581b82-c543-4bb0-b7ce-b1edb1138c12. Existing minecraft:chest_minecart#412218, new: minecraft:chest_minecart#414717
+[20Mar2021 00:35:11.143] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 1b3773ed-b762-46fd-a258-502572e7e1b5. Existing minecraft:chest_minecart#412353, new: minecraft:chest_minecart#414752
+[20Mar2021 00:35:13.510] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 657119ce-9f5f-48b7-bf42-ee5ca53989f6. Existing minecraft:chest_minecart#412440, new: minecraft:chest_minecart#414853
+[20Mar2021 00:35:14.732] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 374d8a9f-a1dc-4b6f-9780-d0ab981e229d. Existing minecraft:chest_minecart#412528, new: minecraft:chest_minecart#414897
+[20Mar2021 00:36:34.134] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/415150, l='ServerLevel[world]', x=-2550.65, y=48.51, z=-981.59]
+[20Mar2021 00:36:34.136] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Iron Ore'/415151, l='ServerLevel[world]', x=-2552.40, y=51.34, z=-978.52]
+[20Mar2021 00:36:34.138] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cut Sandstone'/415152, l='ServerLevel[world]', x=-2549.64, y=53.50, z=-978.64]
+[20Mar2021 00:36:34.139] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Chiseled Sandstone'/415153, l='ServerLevel[world]', x=-2546.43, y=54.55, z=-981.56]
+[20Mar2021 00:36:34.142] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Zinc Ore'/415154, l='ServerLevel[world]', x=-2546.65, y=52.69, z=-979.53]
+[20Mar2021 00:36:34.144] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Vinteum Ore'/415155, l='ServerLevel[world]', x=-2548.47, y=49.52, z=-983.73]
+[20Mar2021 00:36:34.149] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Sandstone'/415156, l='ServerLevel[world]', x=-2548.64, y=56.55, z=-983.61]
+[20Mar2021 00:36:34.151] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/415157, l='ServerLevel[world]', x=-2547.40, y=48.31, z=-980.44]
+[20Mar2021 00:36:34.153] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/415158, l='ServerLevel[world]', x=-2552.54, y=49.66, z=-980.56]
+[20Mar2021 00:36:34.154] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/415159, l='ServerLevel[world]', x=-2548.28, y=49.43, z=-979.34]
+[20Mar2021 00:36:34.156] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/415160, l='ServerLevel[world]', x=-2551.59, y=49.43, z=-978.70]
+[20Mar2021 00:36:45.780] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 7185bad4-23bd-45a8-949e-ca410a42fad8. Existing minecraft:chest_minecart#414473, new: minecraft:chest_minecart#415366
+[20Mar2021 00:36:45.781] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID be1cec70-3fa9-4977-88f2-01553fbc3df7. Existing minecraft:chicken#414474, new: minecraft:chicken#415367
+[20Mar2021 00:36:46.613] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0ecd41ca-2808-421e-b48d-45f3a98e4906. Existing minecraft:chest_minecart#414490, new: minecraft:chest_minecart#415417
+[20Mar2021 00:36:51.516] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID fcbb707f-b05f-4951-863a-a96469322cc2. Existing minecraft:chest_minecart#414409, new: minecraft:chest_minecart#415704
+[20Mar2021 00:36:51.518] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3c363c28-7dca-4351-acbc-8b25b7c4af16. Existing minecraft:chest_minecart#414410, new: minecraft:chest_minecart#415705
+[20Mar2021 00:36:51.519] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2c370016-ca5f-4098-849a-49e70073bd8f. Existing alexsmobs:elephant#414318, new: alexsmobs:elephant#415706
+[20Mar2021 00:36:51.520] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f03156f2-4d88-4c29-8c6a-9629c8bdbea5. Existing alexsmobs:elephant#414316, new: alexsmobs:elephant#415707
+[20Mar2021 00:36:51.522] [Server thread/WARN] [net.minecraft.loot.LootTable/]: Tried to over-fill a container
+[20Mar2021 00:36:57.368] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 9.039725504390844,0.0,4.744618939429529
+[20Mar2021 00:37:07.734] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 29a886eb-7a2f-4c7e-b5e1-3c37c924c885. Existing minecraft:chest_minecart#414663, new: minecraft:chest_minecart#416474
+[20Mar2021 00:37:08.549] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a51c7d91-c4aa-4bbe-a0a4-5cc42bbc6439. Existing minecraft:chest_minecart#414734, new: minecraft:chest_minecart#416524
+[20Mar2021 00:37:08.551] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5dac4d7b-94e7-4ca1-a8cf-cf7607dcd836. Existing minecraft:item#415039, new: minecraft:item#416525
+[20Mar2021 00:37:08.553] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a0dce7bd-14d0-41d4-867f-a18f42493158. Existing minecraft:item#415040, new: minecraft:item#416526
+[20Mar2021 00:37:08.553] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID e1e0d394-db15-49d2-9ecb-ff68dc013837. Existing minecraft:item#415043, new: minecraft:item#416527
+[20Mar2021 00:37:08.554] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c6902269-9b33-4680-bd16-7ce00b1062e6. Existing minecraft:item#415050, new: minecraft:item#416528
+[20Mar2021 00:37:08.554] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3e2b02c9-f0e3-409a-95fe-ce0c78d80904. Existing minecraft:item#415051, new: minecraft:item#416529
+[20Mar2021 00:37:08.555] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b6df0d17-a5c2-4f8a-bdd7-1b48362a1a84. Existing minecraft:item#415053, new: minecraft:item#416530
+[20Mar2021 00:37:08.556] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 5876111e-0190-4a86-9a87-a4d0b529cf19. Existing minecraft:item#415055, new: minecraft:item#416531
+[20Mar2021 00:37:08.557] [Server thread/WARN] [net.minecraft.loot.LootTable/]: Tried to over-fill a container
+[20Mar2021 00:37:11.788] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 6dab2e99-636a-4f8b-b9e0-d8aa44cbde3d. Existing minecraft:chest_minecart#414910, new: minecraft:chest_minecart#416642
+[20Mar2021 00:37:11.878] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 49fc8773-4aff-4d78-ab62-e17381357be2. Existing minecraft:chest_minecart#414896, new: minecraft:chest_minecart#416657
+[20Mar2021 00:37:12.681] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 0e4707c2-5e2e-414d-8c36-fc44514e48dd. Existing minecraft:chest_minecart#415234, new: minecraft:chest_minecart#416691
+[20Mar2021 00:37:12.775] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID abeb9fdc-1517-4fb9-bcee-89cbc8c324a7. Existing minecraft:chest_minecart#415233, new: minecraft:chest_minecart#416703
+[20Mar2021 00:37:12.876] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID f8eae700-2f04-4f93-b04c-6d097272b9b2. Existing minecraft:chest_minecart#415229, new: minecraft:chest_minecart#416726
+[20Mar2021 00:37:12.877] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 2b71acbf-f573-4a2a-b88a-75455cfd07ec. Existing minecraft:chest_minecart#415230, new: minecraft:chest_minecart#416727
+[20Mar2021 00:37:13.449] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID c69f2e79-5489-4e33-be9e-9694f12a2c8c. Existing minecraft:chest_minecart#415235, new: minecraft:chest_minecart#416758
+[20Mar2021 00:37:13.622] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID a57f4c06-3e27-4473-8c24-77a137f70330. Existing minecraft:chest_minecart#415236, new: minecraft:chest_minecart#416783
+[20Mar2021 00:37:13.624] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 439042be-099c-4f21-bc84-4ace6c08a04f. Existing minecraft:chest_minecart#415237, new: minecraft:chest_minecart#416784
+[20Mar2021 00:37:13.668] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID b7d378db-a7a6-43d7-a990-7b4cf924753e. Existing minecraft:item#415339, new: minecraft:item#416785
+[20Mar2021 00:37:13.669] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 76dce9a1-9246-4d58-a4b6-53d12ad985ac. Existing minecraft:item#415387, new: minecraft:item#416786
+[20Mar2021 00:37:14.292] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 3c3ac18d-b1aa-4deb-a929-afbb71db5e7e. Existing minecraft:chest_minecart#415328, new: minecraft:chest_minecart#416832
+[20Mar2021 01:02:47.217] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/420203, l='ServerLevel[world]', x=-492.05, y=117.00, z=-208.10]
+[20Mar2021 01:05:14.420] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/420256, l='ServerLevel[world]', x=-492.20, y=117.00, z=-200.31]
+[20Mar2021 01:14:12.571] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/420476, l='ServerLevel[world]', x=-492.20, y=117.00, z=-200.31]
+[20Mar2021 01:32:49.518] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/420917, l='ServerLevel[world]', x=-492.20, y=117.00, z=-200.31]
+[20Mar2021 01:38:18.166] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/421067, l='ServerLevel[world]', x=-491.59, y=117.00, z=-208.10]
+[20Mar2021 01:52:21.975] [Netty Server IO #4/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[20Mar2021 01:52:22.270] [User Authenticator #13/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Jinwei is 687a8468-8a3a-44ef-9716-5b78b412f196
+[20Mar2021 01:52:31.769] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6277f264
+[20Mar2021 01:52:31.943] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Jinwei[/10.6.220.21:14192] logged in with entity id 421438 at (11.380412798870974, 91.0, -325.7184795221314)
+[20Mar2021 01:52:32.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei joined the game
+[20Mar2021 01:52:39.344] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/421548, l='ServerLevel[world]', x=-493.17, y=117.00, z=-201.19]
+[20Mar2021 01:52:49.390] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2378ms or 47 ticks behind
+[20Mar2021 01:52:51.420] [Server thread/ERROR] [journeymap/]: Failed to read message for worldId: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[20Mar2021 01:53:03.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> wuts gud noob
+[20Mar2021 01:53:35.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> you should come check out my base updates
+[20Mar2021 01:53:43.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> i am quite satisfied
+[20Mar2021 01:54:55.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> u ther?
+[20Mar2021 01:55:01.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> yeah trying to enchant rn
+[20Mar2021 02:01:47.684] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[20Mar2021 02:45:09.132] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/423414, l='ServerLevel[world]', x=-491.47, y=117.00, z=-202.57]
+[20Mar2021 02:50:19.124] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/423590, l='ServerLevel[world]', x=-490.83, y=117.00, z=-203.22]
+[20Mar2021 02:57:03.113] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[20Mar2021 03:19:20.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> this isnt lit up enough
+[20Mar2021 03:19:50.721] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> I can fix it if youd like
+[20Mar2021 03:24:06.178] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 lost connection: Disconnected
+[20Mar2021 03:24:06.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Hio102 left the game
+[20Mar2021 05:12:40.749] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Jinwei lost connection: Disconnected
+[20Mar2021 05:12:40.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei left the game
+[20Mar2021 10:21:56.533] [Netty Server IO #2/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[20Mar2021 10:21:56.799] [User Authenticator #14/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Hio102 is a1b82622-16ff-4a08-872e-9132865ba162
+[20Mar2021 10:22:03.190] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@219ef42a
+[20Mar2021 10:22:03.315] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Hio102[/10.6.220.12:58800] logged in with entity id 433332 at (42.2610617085805, 125.0, -323.4252137188908)
+[20Mar2021 10:22:03.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Hio102 joined the game
+[20Mar2021 10:22:17.575] [Server thread/ERROR] [journeymap/]: Failed to read message for worldId: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[20Mar2021 10:38:57.743] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-482, y=64, z=-206}
+[20Mar2021 10:42:21.868] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/434222, l='ServerLevel[world]', x=-491.73, y=117.00, z=-207.44]
+[20Mar2021 10:52:12.067] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/434491, l='ServerLevel[world]', x=-492.05, y=117.00, z=-208.10]
+[20Mar2021 11:15:44.967] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/435346, l='ServerLevel[world]', x=-491.99, y=117.00, z=-202.49]
+[20Mar2021 11:19:25.216] [Netty Server IO #3/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[20Mar2021 11:19:25.479] [User Authenticator #15/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Jinwei is 687a8468-8a3a-44ef-9716-5b78b412f196
+[20Mar2021 11:19:34.669] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@26ca470
+[20Mar2021 11:19:35.008] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Jinwei[/10.6.220.21:17353] logged in with entity id 435606 at (18.43048329307199, 107.0, -303.71280230846685)
+[20Mar2021 11:19:35.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei joined the game
+[20Mar2021 11:19:38.114] [Server thread/ERROR] [journeymap/]: Failed to read message for worldId: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[20Mar2021 11:19:38.679] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2318ms or 46 ticks behind
+[20Mar2021 11:19:56.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2884ms or 57 ticks behind
+[20Mar2021 11:20:34.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> check this out
+[20Mar2021 11:20:42.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102>    [Netherite Pickaxe]
+[20Mar2021 11:20:47.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102>    [Bow]
+[20Mar2021 11:21:13.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> nuts
+[20Mar2021 11:21:27.750] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-478, y=63, z=-236} BlockPos{x=-490, y=63, z=-232}
+[20Mar2021 11:21:27.778] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-478, y=63, z=-236} BlockPos{x=-490, y=63, z=-232}
+[20Mar2021 11:21:27.884] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-478, y=63, z=-236} BlockPos{x=-490, y=63, z=-232}
+[20Mar2021 11:21:27.903] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-478, y=63, z=-236} BlockPos{x=-490, y=63, z=-232}
+[20Mar2021 11:21:36.178] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> looked at your base last night
+[20Mar2021 11:21:38.716] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> looks good
+[20Mar2021 11:21:46.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> the grove?
+[20Mar2021 11:21:48.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> I lit up some of it, there wasnt enough light in some places
+[20Mar2021 11:22:01.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
+[20Mar2021 11:22:19.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> you went in the mountain?
+[20Mar2021 11:22:22.130] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> ya
+[20Mar2021 11:22:25.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> ok cool
+[20Mar2021 11:22:38.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> yea thats 20x20x34
+[20Mar2021 11:22:59.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> hand dug, lost count of diamond picks
+[20Mar2021 11:23:13.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> ah i see
+[20Mar2021 11:23:27.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> yeah im gunna add a lot more so i wasnt lighting too carefulkly
+[20Mar2021 11:23:28.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> need to skip this day if we can
+[20Mar2021 11:23:36.046] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> do you have a coffin yet?
+[20Mar2021 11:23:51.348] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Jinwei lost connection: Disconnected
+[20Mar2021 11:23:51.352] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei left the game
+[20Mar2021 11:24:00.981] [Netty Server IO #5/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[20Mar2021 11:24:01.285] [User Authenticator #16/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Jinwei is 687a8468-8a3a-44ef-9716-5b78b412f196
+[20Mar2021 11:24:11.499] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1292ab18
+[20Mar2021 11:24:11.732] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Jinwei[/10.6.220.21:17394] logged in with entity id 436525 at (4.559018861114979, 131.0, -324.9466782545845)
+[20Mar2021 11:24:11.768] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei joined the game
+[20Mar2021 11:24:14.180] [Server thread/ERROR] [journeymap/]: Failed to read message for worldId: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[20Mar2021 11:25:12.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> i want to not be vamp!
+[20Mar2021 11:25:18.429] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> workign on that too
+[20Mar2021 11:25:21.485] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> I have 1 fang so far
+[20Mar2021 11:25:25.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> this is gunna make people think im a vasmp
+[20Mar2021 11:26:26.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> apparently dirt and grass have different mine speeds
+[20Mar2021 11:26:32.729] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2118ms or 42 ticks behind
+[20Mar2021 11:26:35.308] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-485, y=64, z=-233} BlockPos{x=-482, y=63, z=-236}
+[20Mar2021 11:26:35.412] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-485, y=64, z=-233} BlockPos{x=-482, y=63, z=-236}
+[20Mar2021 11:26:58.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> that makes sense
+[20Mar2021 11:27:04.037] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> neat detail
+[20Mar2021 11:27:15.925] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[20Mar2021 11:27:20.094] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> its rather annoying when clearing out mounds of dirt
+[20Mar2021 11:27:23.051] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-485, y=64, z=-237} BlockPos{x=-485, y=63, z=-236}
+[20Mar2021 11:31:15.404] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
+[20Mar2021 11:31:27.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> i want to make a jungle in the grove
+[20Mar2021 11:31:44.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> lmk if you see any jungle
+[20Mar2021 11:33:07.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> are there better picks for excavating?
+[20Mar2021 11:33:13.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> netherite
+[20Mar2021 11:33:24.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> are there ones that do several blocks?
+[20Mar2021 11:33:30.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> oh no
+[20Mar2021 11:33:33.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> we had that at one point
+[20Mar2021 11:33:35.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> I dont believe we have any of those
+[20Mar2021 11:34:01.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> whats screen shot lol
+[20Mar2021 11:34:09.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> f2
+[20Mar2021 11:34:33.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> traveling trader spooked me
+[20Mar2021 11:34:41.701] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> anything good from him?
+[20Mar2021 11:34:55.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> kelp mustache
+[20Mar2021 11:34:57.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> eh
+[20Mar2021 11:34:59.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> not worth it
+[20Mar2021 11:35:12.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Jinwei has made the advancement [Now that we're Men!]
+[20Mar2021 11:35:26.727] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> does inventory change when you buy from them?
+[20Mar2021 11:35:36.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> changes every time they come
+[20Mar2021 11:36:14.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102>    [Iron Sword]
+[20Mar2021 11:36:20.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> you should try and get prospecting
+[20Mar2021 11:36:28.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> chance on every mob kill to drop emeralds
+[20Mar2021 11:37:51.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> interesting
+[20Mar2021 11:37:58.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> i dont kill alot of mobs tho
+[20Mar2021 11:38:09.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> and im rich as hell now
+[20Mar2021 11:38:23.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> already have two blocks over my doorway
+[20Mar2021 11:46:47.406] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
+[20Mar2021 11:48:42.737] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/438920, l='ServerLevel[world]', x=-491.47, y=117.00, z=-202.57]
+[20Mar2021 11:48:44.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> what did hals want my cobble for?
+[20Mar2021 11:48:49.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> idk
+[20Mar2021 11:50:40.747] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/439073, l='ServerLevel[world]', x=-490.83, y=117.00, z=-202.22]
+[20Mar2021 11:51:33.342] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[20Mar2021 11:56:05.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/439388, l='ServerLevel[world]', x=-491.49, y=117.00, z=-203.56]
+[20Mar2021 11:56:49.998] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[20Mar2021 11:58:21.481] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/439489, l='ServerLevel[world]', x=-490.83, y=117.00, z=-202.22]
+[20Mar2021 12:00:03.170] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/439580, l='ServerLevel[world]', x=-492.46, y=117.00, z=-207.40]
+[20Mar2021 12:02:03.923] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
+[20Mar2021 12:04:58.563] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=21, y=133, z=-337} BlockPos{x=21, y=133, z=-335}
+[20Mar2021 12:04:58.633] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=21, y=133, z=-337} BlockPos{x=21, y=133, z=-335}
+[20Mar2021 12:06:05.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> could you help me relocate two villagers
+[20Mar2021 12:06:13.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> not yet
+[20Mar2021 12:06:15.343] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> dont have the spell
+[20Mar2021 12:06:24.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> damn
+[20Mar2021 12:06:37.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> how do you move animals?
+[20Mar2021 12:06:40.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> harness?
+[20Mar2021 12:06:42.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> ok
+[20Mar2021 12:06:44.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> what happened
+[20Mar2021 12:06:57.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> why am I back a whole level and a half in m&a
+[20Mar2021 12:07:27.336] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2224ms or 44 ticks behind
+[20Mar2021 12:07:56.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> ugh thats so stupid
+[20Mar2021 12:08:05.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Jinwei> what happened
+[20Mar2021 12:08:07.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> its tied to my player.dat
+[20Mar2021 12:08:39.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> figured it was tied to the occulous itself just with a player identifier
+[20Mar2021 12:12:44.742] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[20Mar2021 12:21:58.962] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2302ms or 46 ticks behind
+[20Mar2021 12:27:10.244] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2283ms or 45 ticks behind
+[20Mar2021 12:27:35.919] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[20Mar2021 12:31:50.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[20Mar2021 12:32:29.034] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
+[20Mar2021 12:32:46.979] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Entity SkeletonEntity['Skeleton'/443085, l='ServerLevel[world]', x=-534.57, y=32.90, z=-113.40] left loaded chunk area
+[20Mar2021 12:36:45.049] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2188ms or 43 ticks behind
+[20Mar2021 12:37:43.937] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! -8.986022553198666,3.2175356286849564,4.481102723524572
+[20Mar2021 12:37:44.291] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2680ms or 53 ticks behind
+[20Mar2021 12:41:05.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[20Mar2021 12:42:47.073] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! -5.567994033210539,1.8653710368346026,8.62388456475388
+[20Mar2021 12:45:29.000] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
+[20Mar2021 12:49:52.766] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[20Mar2021 12:52:53.072] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[20Mar2021 12:54:36.841] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[20Mar2021 12:54:37.835] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Helicopter (vehicle of Jinwei) moved too quickly! -9.122596273212451,0.5155283390690215,-4.461306377707388
+[20Mar2021 12:54:38.890] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Helicopter (vehicle of Jinwei) moved too quickly! -9.129740139576938,0.5095017204034491,-4.479387651935667
+[20Mar2021 12:54:39.834] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Hio102 moved too quickly! 10.207355737855988,0.0,1.366831975324443
+[20Mar2021 12:54:40.401] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Helicopter (vehicle of Jinwei) moved too quickly! -9.139542431514656,0.500538127690362,-4.506627302736661
+[20Mar2021 12:54:54.530] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2718ms or 54 ticks behind
+[20Mar2021 12:55:22.806] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13296ms or 265 ticks behind
+[20Mar2021 12:55:27.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> bruh
+[20Mar2021 12:55:34.603] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Helicopter (vehicle of Jinwei) moved too quickly! -8.781219470036149,0.07435792613546255,-5.2141420172437165
+[20Mar2021 12:55:36.399] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Hio102> this is laggy af rn
+[20Mar2021 12:55:39.904] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 9601a4eb-9008-4a2f-b952-5a7c0c168e88
+[20Mar2021 12:55:39.934] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.crash.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:854) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:786) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:641) ~[?:?]
+	at net.minecraft.server.MinecraftServer.lambda$startServer$0(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(Unknown Source) ~[?:1.8.0_281]
+	at java.util.HashMap$ValueIterator.next(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraft.entity.ai.attributes.AttributeModifierManager.func_233794_c_(SourceFile:107) ~[?:?]
+	at net.minecraft.entity.LivingEntity.func_213281_b(LivingEntity.java:588) ~[?:?]
+	at net.minecraft.entity.MobEntity.func_213281_b(MobEntity.java:329) ~[?:?]
+	at net.minecraft.entity.passive.fish.AbstractFishEntity.func_213281_b(SourceFile:97) ~[?:?]
+	at blueduck.jellyfishing.entities.AbstractJellyfishEntity.func_213281_b(AbstractJellyfishEntity.java:259) ~[jellyfishing:1.0]
+	at blueduck.jellyfishing.entities.AbstractJellyfishEntity.func_70636_d(AbstractJellyfishEntity.java:163) ~[jellyfishing:1.0]
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2158) ~[?:?]
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?]
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?]
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?]
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:850) ~[?:?]
+	... 5 more

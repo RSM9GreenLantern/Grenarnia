@@ -185,6 +185,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smelting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/weapontable/enhanced_tech_crossbow": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
@@ -428,6 +434,18 @@
   "minecraft:recipes/building_blocks/smooth_quartz_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "smallships:recipes/sail_item": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/void_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -821,6 +839,18 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/upgrade_base": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
+  "repurposed_structures:outpost/outpost_desert": {
+    "criteria": {
+      "in_outpost_desert": "2021-03-19 20:51:34 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -1007,9 +1037,21 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/crafting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
+    },
+    "done": true
+  },
+  "botania:main/bauble_wear": {
+    "criteria": {
+      "code_triggered": "2021-03-19 00:47:37 -0700"
     },
     "done": true
   },
@@ -2150,6 +2192,12 @@
     },
     "done": true
   },
+  "smallships:recipes/birch_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "inspirations:recipes/building_blocks/cauldron/bottle/stained_glass/purple": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -2294,6 +2342,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2021-03-18 23:25:58 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/botania/lens_magnet": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
@@ -2393,6 +2447,12 @@
   "create:recipes/create.palettes/paved_dolomite_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/pickup_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -3179,7 +3239,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2021-03-11 23:20:12 -0800",
+      "minecraft:blaze": "2021-03-18 23:23:25 -0700",
       "minecraft:skeleton": "2021-03-14 04:57:02 -0700",
+      "minecraft:hoglin": "2021-03-19 00:18:31 -0700",
       "minecraft:magma_cube": "2021-03-12 00:33:58 -0800",
       "minecraft:spider": "2021-03-10 20:22:42 -0800",
       "minecraft:piglin_brute": "2021-03-16 01:53:05 -0700",
@@ -4428,6 +4490,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/refill_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_constantan_from_dust_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
@@ -4833,6 +4901,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/conveyor_extract": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/inception_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -6204,6 +6278,12 @@
     },
     "done": true
   },
+  "smallships:recipes/oak_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "rftoolsdim:recipes/rftoolsdim/researcher": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -6309,6 +6389,12 @@
   "minecraft:recipes/decorations/magenta_glazed_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/backpack": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -6966,6 +7052,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/feeding_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -7452,6 +7544,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_steel_from_dust_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -8157,6 +8255,12 @@
     },
     "done": true
   },
+  "industrialforegoing:recipes/industrialforegoing_core/plastic": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
@@ -8202,6 +8306,12 @@
   "botania:recipes/botania/azulejo_0_alt": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:30 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_restock_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -9723,6 +9833,12 @@
     },
     "done": true
   },
+  "smallships:recipes/jungle_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/black_seat_from_other_seat": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -9768,6 +9884,12 @@
   "inspirations:recipes/building_blocks/cauldron/bottle/stained_glass/magenta": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/netherite_backpack": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -10002,6 +10124,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smelting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -10302,6 +10430,12 @@
   "botania:recipes/botania/chiseled_metamorphic_forest_bricks": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2021-03-19 00:37:29 -0700"
     },
     "done": true
   },
@@ -10990,6 +11124,12 @@
     },
     "done": true
   },
+  "smallships:recipes/dark_oak_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/toolupgrade_revolver_magazine": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -11296,6 +11436,12 @@
     },
     "done": true
   },
+  "smallships:recipes/jungle_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -11596,6 +11742,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_deposit_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/transformer": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -11863,6 +12015,12 @@
   "immersiveengineering:main/connect_wire": {
     "criteria": {
       "code_trigger": "2021-03-14 05:21:10 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_filter_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -12658,6 +12816,12 @@
     },
     "done": true
   },
+  "smallships:recipes/spruce_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -12691,6 +12855,12 @@
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/sunbird_blessing": {
+    "criteria": {
+      "all_effects": "2021-03-19 20:23:04 -0700"
     },
     "done": true
   },
@@ -13288,6 +13458,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_compacting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "inspirations:recipes/cauldron/cauldron/wool/magenta": {
     "criteria": {
       "has_item": "2021-03-10 19:54:21 -0800"
@@ -13465,6 +13641,12 @@
   "create:recipes/transportation/crafting/kinetics/minecart_from_contraption_cart": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_magnet_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -13930,6 +14112,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/everlasting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "inspirations:recipes/building_blocks/cauldron/bottle/terracotta/black": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -13987,6 +14175,12 @@
   "botania:recipes/botania/terraform_rod": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -14053,6 +14247,12 @@
   "create:recipes/create.base/crafting/kinetics/magenta_seat_from_other_seat": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -14137,6 +14337,12 @@
   "botania:recipes/botania/chiseled_metamorphic_mesa_bricks": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -14377,6 +14583,12 @@
   "botania:recipes/botania/livingrock_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:32 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/diamond_backpack": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -15022,6 +15234,12 @@
     },
     "done": true
   },
+  "smallships:recipes/birch_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/botania/red_string_container": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:32 -0700"
@@ -15049,6 +15267,12 @@
   "supplementaries:recipes/blackboard": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_galley": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -16096,6 +16320,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/gold_backpack": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
@@ -16147,6 +16377,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_magnet_upgrade_from_basic": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -17410,6 +17646,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/magnet_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/blue_seat": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -17584,6 +17826,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/filter_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:13 -0800"
@@ -17641,6 +17889,12 @@
   "create:recipes/create.palettes/vertical_framed_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/restock_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -17935,6 +18189,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2021-03-09 02:29:31 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_void_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -19552,6 +19812,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_pickup_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/weapontable/hunter_coat_legs_enhanced": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
@@ -19866,7 +20132,9 @@
       "minecraft:frozen_river": "2021-03-16 04:18:44 -0700",
       "minecraft:deep_frozen_ocean": "2021-03-12 02:30:18 -0800",
       "minecraft:birch_forest": "2021-03-09 02:23:48 -0800",
+      "minecraft:warm_ocean": "2021-03-20 00:28:46 -0700",
       "minecraft:deep_lukewarm_ocean": "2021-03-11 17:30:50 -0800",
+      "minecraft:savanna_plateau": "2021-03-20 00:36:53 -0700",
       "minecraft:beach": "2021-03-09 02:56:17 -0800",
       "minecraft:dark_forest": "2021-03-11 17:05:46 -0800",
       "minecraft:river": "2021-03-09 02:23:46 -0800",
@@ -20071,6 +20339,12 @@
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "industrialforegoing:recipes/industrialforegoing_core/dryrubber": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -20752,6 +21026,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/deposit_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_andesite_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
@@ -20779,6 +21059,12 @@
   "botania:recipes/botania/infused_seeds": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:30 -0700"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_cog": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
@@ -20995,6 +21281,12 @@
   "botania:recipes/misc/dye_purple": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2021-03-19 00:45:28 -0700"
     },
     "done": true
   },
@@ -21466,6 +21758,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stonecutter_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/storage_copper_to_slab": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -21511,6 +21809,12 @@
   "botania:recipes/botania/slab_recombine/dreamwood": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:30 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/compacting_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2021-03-18 23:17:54 -0700"
     },
     "done": true
   },
