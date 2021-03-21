@@ -3160,6 +3160,7 @@
       "minecraft:blaze": "2021-03-15 16:15:24 -0700",
       "minecraft:skeleton": "2021-03-12 15:35:24 -0800",
       "minecraft:spider": "2021-03-19 17:18:33 -0700",
+      "minecraft:enderman": "2021-03-20 13:54:26 -0700",
       "minecraft:vex": "2021-03-15 19:29:50 -0700",
       "minecraft:zombie": "2021-03-14 21:26:48 -0700"
     },
@@ -7764,6 +7765,12 @@
   "botania:recipes/botania/floating_clayconia": {
     "criteria": {
       "has_the_recipe": "2021-03-17 12:22:29 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/checker_block": {
+    "criteria": {
+      "has_plank": "2021-03-20 17:03:14 -0700"
     },
     "done": true
   },
