@@ -9221,6 +9221,12 @@
     },
     "done": true
   },
+  "repurposed_structures:stronghold/stronghold_stonebricks": {
+    "criteria": {
+      "in_stronghold_stonebrick": "2021-03-21 01:53:58 -0700"
+    },
+    "done": true
+  },
   "traverse:recipes/redstone/fir_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:14 -0800"
