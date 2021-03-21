@@ -2438,6 +2438,12 @@
     },
     "done": true
   },
+  "inspirations:recipes/cauldron/cauldron/beetroot_soup/stew_small": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/botania/shimmerwood_planks_stairs": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:31 -0700"
@@ -4616,6 +4622,12 @@
     },
     "done": true
   },
+  "inspirations:recipes/cauldron/cauldron/rabbit_stew/stew_large": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/botania/light_gray_floating_flower": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:30 -0700"
@@ -6587,6 +6599,12 @@
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:11 -0800"
+    },
+    "done": true
+  },
+  "inspirations:recipes/cauldron/cauldron/beetroot_soup/stew_large": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
     },
     "done": true
   },
@@ -11706,6 +11724,12 @@
     },
     "done": true
   },
+  "inspirations:recipes/cauldron/cauldron/mushroom_stew/stew_large": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
+    },
+    "done": true
+  },
   "supplementaries:recipes/sign_post_pine": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
@@ -12381,6 +12405,12 @@
   "inspirations:recipes/building_blocks/building/mulch/blue": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:10 -0800"
+    },
+    "done": true
+  },
+  "inspirations:recipes/cauldron/cauldron/potato_soup/stew_large": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
     },
     "done": true
   },
@@ -16002,6 +16032,12 @@
     },
     "done": true
   },
+  "inspirations:recipes/cauldron/cauldron/mushroom_stew/stew_small": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/botania/yellow_petal_block": {
     "criteria": {
       "has_the_recipe": "2021-03-17 15:37:32 -0700"
@@ -16461,6 +16497,12 @@
   "rftoolsutility:recipes/rftoolsutility/screen_controller": {
     "criteria": {
       "has_the_recipe": "2021-03-09 02:20:12 -0800"
+    },
+    "done": true
+  },
+  "inspirations:recipes/cauldron/cauldron/potato_soup/stew_small": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
     },
     "done": true
   },
@@ -20149,6 +20191,12 @@
       "minecraft:plains": "2021-03-09 02:20:14 -0800"
     },
     "done": false
+  },
+  "inspirations:recipes/cauldron/cauldron/rabbit_stew/stew_small": {
+    "criteria": {
+      "has_item": "2021-03-20 23:41:23 -0700"
+    },
+    "done": true
   },
   "vampirism:recipes/vampirism/weapontable/armor_of_swiftness_legs_enhanced": {
     "criteria": {
