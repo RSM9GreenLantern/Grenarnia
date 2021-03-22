@@ -989,6 +989,12 @@
     },
     "done": true
   },
+  "inspirations:recipes/cauldron/cauldron/concrete/blue": {
+    "criteria": {
+      "has_item": "2021-03-22 01:30:17 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks": {
     "criteria": {
       "has_the_recipe": "2021-03-08 18:26:31 -0800"
@@ -3161,9 +3167,11 @@
       "minecraft:skeleton": "2021-03-12 15:35:24 -0800",
       "minecraft:spider": "2021-03-19 17:18:33 -0700",
       "minecraft:creeper": "2021-03-21 20:14:06 -0700",
+      "minecraft:cave_spider": "2021-03-21 23:38:46 -0700",
       "minecraft:enderman": "2021-03-20 13:54:26 -0700",
       "minecraft:vex": "2021-03-15 19:29:50 -0700",
-      "minecraft:zombie": "2021-03-14 21:26:48 -0700"
+      "minecraft:zombie": "2021-03-14 21:26:48 -0700",
+      "minecraft:zombie_villager": "2021-03-22 00:05:34 -0700"
     },
     "done": false
   },
@@ -19738,6 +19746,7 @@
       "minecraft:cold_ocean": "2021-03-11 15:58:37 -0800",
       "minecraft:forest": "2021-03-08 19:37:48 -0800",
       "minecraft:mountains": "2021-03-14 23:33:50 -0700",
+      "minecraft:taiga": "2021-03-21 23:55:22 -0700",
       "minecraft:deep_cold_ocean": "2021-03-19 20:12:21 -0700",
       "minecraft:desert": "2021-03-15 19:32:20 -0700",
       "minecraft:birch_forest": "2021-03-10 18:28:25 -0800",
