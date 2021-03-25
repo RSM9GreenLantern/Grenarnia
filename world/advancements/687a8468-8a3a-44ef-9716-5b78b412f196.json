@@ -14331,6 +14331,12 @@
     },
     "done": true
   },
+  "repurposed_structures:village/village_swamp": {
+    "criteria": {
+      "in_village_swamp": "2021-03-25 14:07:23 -0700"
+    },
+    "done": true
+  },
   "botania:recipes/misc/dye_pink": {
     "criteria": {
       "has_the_recipe": "2021-03-17 12:22:28 -0700"
@@ -19836,6 +19842,7 @@
       "minecraft:river": "2021-03-10 19:41:37 -0800",
       "minecraft:lukewarm_ocean": "2021-03-15 19:31:16 -0700",
       "minecraft:birch_forest_hills": "2021-03-11 15:55:17 -0800",
+      "minecraft:wooded_mountains": "2021-03-25 14:05:56 -0700",
       "minecraft:wooded_hills": "2021-03-14 20:27:18 -0700",
       "minecraft:swamp": "2021-03-14 20:24:28 -0700",
       "minecraft:savanna": "2021-03-14 23:43:09 -0700",
