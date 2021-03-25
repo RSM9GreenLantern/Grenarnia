@@ -1,18 +1,18 @@
-[23Mar2021 09:52:59.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[23Mar2021 09:52:59.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23Mar2021 09:52:59.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23Mar2021 09:52:59.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23Mar2021 09:52:59.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23Mar2021 09:52:59.737] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23Mar2021 09:52:59.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23Mar2021 09:52:59.741] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Mar2021 09:52:59.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23Mar2021 09:52:59.752] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Mar2021 09:52:59.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/astral:inner_realm
-[23Mar2021 09:52:59.760] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
-[23Mar2021 09:52:59.821] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23Mar2021 09:52:59.849] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Mar2021 09:52:59.851] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Mar2021 09:52:59.852] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
-[23Mar2021 09:52:59.857] [Server thread/INFO] [enderchests/]: Unloading EnderChest Data
-[23Mar2021 09:52:59.861] [Server thread/INFO] [enderchests/]: Finished Unloading EnderChest Data
+[24Mar2021 18:23:42.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[24Mar2021 18:23:42.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Mar2021 18:23:42.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Mar2021 18:23:42.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Mar2021 18:23:42.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[24Mar2021 18:23:43.158] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Mar2021 18:23:43.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[24Mar2021 18:23:43.163] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Mar2021 18:23:43.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[24Mar2021 18:23:43.167] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Mar2021 18:23:43.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/astral:inner_realm
+[24Mar2021 18:23:43.172] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
+[24Mar2021 18:23:43.236] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Mar2021 18:23:43.250] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Mar2021 18:23:43.252] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Mar2021 18:23:43.258] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (inner_realm): All chunks are saved
+[24Mar2021 18:23:43.269] [Server thread/INFO] [enderchests/]: Unloading EnderChest Data
+[24Mar2021 18:23:43.269] [Server thread/INFO] [enderchests/]: Finished Unloading EnderChest Data
