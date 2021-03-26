@@ -11,7 +11,7 @@
 	#Range: 0 ~ 2
 	"Threading Rule" = 0
 	#Defines if the pregenerator should automatically restart on server start. Automatically set to true when a task is running, and automatically set to false if no task is running
-	auto-restart = false
+	auto-restart = true
 	#Defines how the pregenerator processes the Chunks. True => will cause a lot more CPU/Server usage, but can be faster, False => more cpu friendly but can be slower. NOTE: Pregen without agressive pregeneration is already very fast. This is more if you have a overbuild server/cpu and want to maximize generation
 	"Agressive Pregen" = false
 	#Defines how many Players have to be online for the Processor to Auto Pause, -1 = Disabled. It is Inclusive 2 = Allows 1 Player
